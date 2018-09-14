@@ -27,6 +27,14 @@ body {
     opacity: 1;
 }
 
+.overlay:active .img-overlay {
+    opacity: 0.3;
+}
+
+.overlay:active .div-overlay {
+    opacity: 1;
+}
+
 .text-overlay {
     background-color: #4CAF50;
     color: white;
